@@ -238,6 +238,9 @@ table.activity{
 
 table.activity td{
   padding: 16px;
+  width: 250px;
+  height: 180px;
+  vertical-align: top;
 }
 
 #cogukatsu_mate{
@@ -267,6 +270,10 @@ table.activity td{
 table.award{
   border-spacing: 55px 0px;
   padding:10px;
+}
+
+tr.award{
+  vertical-align: top;
 }
 
 #footer_img{
