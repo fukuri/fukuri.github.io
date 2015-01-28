@@ -153,6 +153,7 @@ div.block_title{
   text-decoration:none;
 }
 
+
 /*top COGOOとは */
 
 .carousel-inner img{
@@ -302,7 +303,7 @@ tr.award{
 
 #footer_img{
   background-image:url(./img/home_footer.png);
-  background-size:cover;
+  background-size: cover;
   height: 645px;
   width:100%;
 }
@@ -310,7 +311,7 @@ tr.award{
 
 /* サポーター */
 #tmp{
-    height:80px;
+    height:50px;
 }
 
 #supporter{
@@ -395,21 +396,35 @@ table.supporter2{
 
 /*お問い合わせ*/
 
+#title_contact {
+    background-image:url(./img/title_contact.png);
+    background-size:cover;
+    width:401px;
+    height:59px;
+    padding:0;
+}
+
+
 .contact {
   width:980px;
-  margin:0 auto 200px;
+  margin:0 auto 100px;
 }
 
 .contact h1{
   font-size:24px;
 }
 
-
+.contact h2{
+    font-size:18px;
+}
 
 .contact p{
   font-size:14px;
 }
 
+.context{
+    padding: 0 20px;
+}
 
 /*プライバシーポリシー*/
 
