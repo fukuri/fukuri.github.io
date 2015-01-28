@@ -309,6 +309,10 @@ tr.award{
 
 
 /* サポーター */
+#tmp{
+    height:80px;
+}
+
 #supporter{
     background-color:green;
     color:#ffffff;
@@ -391,18 +395,18 @@ table.supporter2{
 
 /*お問い合わせ*/
 
-#contact {
+.contact {
   width:980px;
   margin:0 auto 200px;
 }
 
-#contact h1{
+.contact h1{
   font-size:24px;
 }
 
 
 
-#contact p{
+.contact p{
   font-size:14px;
 }
 
