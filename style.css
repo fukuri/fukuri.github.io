@@ -68,7 +68,7 @@ div.block_title{
   height:100%;
   margin:0 auto;
   position:relative;
-  width:980px;
+  width:960px;
   z-index:99;
 }
 
@@ -79,7 +79,8 @@ div.block_title{
   list-style-type:none;
   margin:0;
   padding:0;
-  width:980px;
+  width:960px;
+  line-height:64px;
 }
 
 
@@ -89,13 +90,13 @@ div.block_title{
   color:#000000;
   display:block;
   float:left;
-  font-size:16px;
+  font-size:12px;
   height:100%;
   line-height:64px;
   margin:0;
   padding:0;
   text-align:center;
-  width:100px;
+  width:90px;
 }
 
 
@@ -103,7 +104,7 @@ div.block_title{
   background-color:#ffffff;
   float:left;
   height:64px;
-  width:260px;
+  width:160px;
 }
 
 
@@ -112,14 +113,14 @@ div.block_title{
   color:#000000;
   display:block;
   float:left;
-  font-size:14px;
+  font-size:12px;
   height:100%;
   line-height:64px;
   margin:0;
   padding:0;
   text-align:center;
   text-decoration:none;
-  width:100px;
+  width:90px;
 }
 
 .menu_list a:visited{
@@ -153,6 +154,17 @@ div.block_title{
   text-decoration:none;
 }
 
+.snsb {
+    list-style-type: none;
+    padding-left: 10px !important;
+    padding-top: 6px !important;
+    width:80px !important;
+    height:58px !important;
+}
+
+.snsb iframe {
+    margin: 0 !important;
+}
 
 /*top COGOOとは */
 
@@ -286,10 +298,9 @@ table.activity td{
 }
 
 
-#award{
+.award{
   width:980px;
-  margin:0 auto;
-  margin: 0 auto 50px;
+  margin: 0 auto 30px;
 }
 
 table.award{
@@ -300,6 +311,38 @@ table.award{
 tr.award{
   vertical-align: top;
 }
+
+.list_title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#achieve_award{
+    width:400px;
+    margin:0 auto 30px;
+}
+
+#achieve_media{
+    width:860px;
+    margin:0 auto 30px;
+}
+
+.achieve_list{
+    font-size: 14px;
+    list-style-type:none;
+}
+
+/* Youtube動画 */
+#youtube_list{
+    width:980px;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* フッター画像 */
 
 #footer_img{
   background-image:url(./img/home_footer.png);
@@ -321,6 +364,10 @@ tr.award{
     text-align:center;
     font-size:18px;
     line-height:180%;
+}
+
+#supporter h3{
+    font-size: 24px;
 }
 
 #supporter_img {
